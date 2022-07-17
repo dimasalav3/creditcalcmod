@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Калькулятор</title>
+  </head>
+  <body>
+  <header>
+     Кредитный калькулятор
+  </header>  
+<main>
+<div class=wrap> 
+        <!--Блок ввода-->
+  <div class="part-input">
+         
+          <div class="input-name">Стоимость недвижимости</div>
+          <div>
+                <input type="number" value="0" id="input1" class="input-value"></br>
+          </div>
+          <div>
+                 <input type="range" min="0" max="10000000" value="0" id="range1" class="input-range">
+          </div>
+
+         
+          <div class="input-name">Первоначальный взнос</div>
+          <div>       
+                 <input type="number" value="0" id="input2" class="input-value"></br>
+          </div>
+          <div>
+                  <input type="range" min="100000" max="10000000" value="0" id="range2" class="input-range">
+          </div>
+         
+          <div class="input-name">Срок кредита</div>
+          <div>
+                  <input type="number" value="0" id="input3" class="input-value"></br>
+          </div>
+          <div>
+                   <input type="range" min="1" max="20" value="0" id="range3" class="input-range">
+          </div>
+   </div> 
+   <!--Блок вывода-->
+  <div class="part-out">
+        <div class="out-name">
+             <span>Сумма кредита: </span><span id="output1">0</span>
+        </div>
+        <div class="out-name">
+           <span>Ежемесячный платеж: </span><span id="output2">0</span>
+         </div>
+
+         <div class="out-name">
+             <span>Рекомендуемый доход: </span><span id="output3">0</span>
+         </div> 
+  </div> 
+</div>
+  
+
+        <!--Блок кнопок-->
+  <div class="nav">    
+        <div>
+           <input type="button" value="Альфа-банк      8,7%" id="button1" data-name="alfa" class="butn active"></br></br>
+           <input type="button" value="Сбербанк        8,4%" id="button2" data-name="sberbank" class="butn"></br></br>
+           <input type="button" value="Почта-банк      7,9%" id="button3" data-name="pochta" class="butn"></br></br>
+           <input type="button" value="Тинькофф-банк   9,2%" id="button4" data-name="tinkoff" class="butn"></br></br>
+            
+        </div>
+  </div>
+</main>        
+ <footer>
+      Разработка сайтов <a href="dmitrijk53530@gmail.com" target="_blank">dmitrijk53530@gmail.com</a>
+ </footer>
+        <script src="js/main.js"></script>
+  </body>
+</html>

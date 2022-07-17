@@ -1,0 +1,91 @@
+* {
+    *padding: 0;
+    margin: 0;
+}
+html,body {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    background-color: #f2f3f4;
+    color: #2f4f4f;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+header {
+    font-size: 1.5rem;
+    color: blue;
+    text-shadow: 5px 2px 4px grey;
+    text-align: center;
+    padding: 15px;
+}
+main {
+    flex-grow: 1;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: row;
+    
+}
+.part-input {
+  border:1px solid gray;
+    width:50%;
+  
+}
+.input-value {
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 35px;
+}
+.input-range {
+    width: 209px;
+    margin-left: 35px;
+    position: relative;
+    bottom: 10px;
+}
+.input-name  {
+    display: block;
+    margin: 20px 0 20px 35px;
+}
+.part-out {
+   border:1px solid gray; 
+   width: 50%;
+}
+.out-name {
+    margin: 20px 20px 20px 20px;
+}
+
+
+.nav{
+    margin-top: 20px;
+}
+.butn {
+    margin-left:70px;
+    font-family: Tahoma;
+    width: 250px;
+    font-size: 18px;
+    padding: 12px; 
+}
+
+.active {
+    
+    border: 2px solid blue;
+}
+footer{
+    border-top:1px solid gray;
+    text-align: center;
+    padding: 15px;
+}
+
+
+/*@media (max-width: 1000px) {
+    .out-name {
+        margin-left: 600px;
+    }
+}
+@media (max-width: 800px) {
+    .out-name {
+        margin-left: 100px;
+    }
+}*/
